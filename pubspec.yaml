@@ -1,0 +1,66 @@
+name: lost_found
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: '>=3.16.0'  # Add Flutter constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  image_picker: ^1.0.4
+  tflite_flutter: ^0.11.0
+  file_picker: ^8.0.0
+  csv: ^6.0.0
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.5.4
+  google_sign_in: ^6.3.0
+  firebase_core: ^3.13.1  # Move to dependencies
+  permission_handler: ^11.0.1
+  pdf: ^3.10.4
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  printing: ^5.11.1
+  http: ^1.1.0
+  collection: ^1.18.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_localizations:
+    sdk: flutter
+  flutter_blue_plus: ^1.12.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.3.2
+  table_calendar: ^3.0.9
+  cloud_firestore: ^5.6.8
+  mailer: ^6.0.1
+  flutter_dotenv: ^5.1.0
+#  syncfusion_flutter_charts: ^22.1.10
+#  eventsource: ^0.4.0
+dependency_overrides:
+  flutter_blue_plus_winrt: 0.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.4"
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon2.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/emotion_model.tflite
+#   - assets/labels.txt
+    - assets/models/labels.txt
+    - assets/images/google.png
+    - assets/images/brain1.png
+    - assets/images/splash.png

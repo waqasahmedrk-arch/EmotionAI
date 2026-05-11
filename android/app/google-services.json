@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10715035809",
+    "project_id": "emotionspredictor",
+    "storage_bucket": "emotionspredictor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10715035809:android:b76da4f240f85ea2ab18e0",
+        "android_client_info": {
+          "package_name": "com.example.lost_found"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf-wzw5zjbgwPZIqLB7wTnOtj3r6Y6Y9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
